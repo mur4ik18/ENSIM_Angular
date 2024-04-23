@@ -1,0 +1,11 @@
+.choix-basic {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+
+}

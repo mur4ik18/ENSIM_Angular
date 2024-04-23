@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FooterComponent } from './footer.component';
+import { ChoicePCComponent } from './choice-pc.component';
 
-describe('FooterComponent', () => {
-  let component: FooterComponent;
-  let fixture: ComponentFixture<FooterComponent>;
+describe('ChoicePCComponent', () => {
+  let component: ChoicePCComponent;
+  let fixture: ComponentFixture<ChoicePCComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [FooterComponent]
+      imports: [ChoicePCComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(FooterComponent);
+    fixture = TestBed.createComponent(ChoicePCComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
