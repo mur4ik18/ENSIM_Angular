@@ -1,0 +1,57 @@
+.category {
+    margin-bottom: 10px;
+  }
+  
+  .radio-button {
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  .radio-button input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .radio-button .label-text {
+    margin-left: 10px;
+  }
+  
+  .radio-button:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  .radio-button input:checked ~ .checkmark {
+    background-color: black;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .radio-button input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .radio-button .checkmark:after {
+    top: 7px;
+    left: 7px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: white;
+  }
+  
