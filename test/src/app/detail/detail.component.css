@@ -1,0 +1,17 @@
+mat-card {
+    max-width: auto;
+    margin: 20px 50px;
+    text-align: center; 
+    padding: 10px;
+}
+#caract{
+    font-size: 32px;
+}
+/* Pour aligner l'image verticalement avec le texte */
+.mat-card-avatar {
+    align-self: center;
+}
+
+.mat-card-header {
+    margin-left: 10px; /* Vous pouvez ajuster cette valeur selon vos besoins */
+}
