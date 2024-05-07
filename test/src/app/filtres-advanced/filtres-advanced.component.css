@@ -1,0 +1,26 @@
+.filter-div {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+.filter-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.filter-list li:hover {
+    background-color: #ccc;
+}
+
+/* Style pour les éléments de sélection */
+.filter-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
