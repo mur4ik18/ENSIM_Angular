@@ -4,12 +4,13 @@ import { HeaderComponent } from './header/header.component';
 import { DetailComponent } from './detail/detail.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { RouterModule } from '@angular/router';
+import { ChoicePCComponent } from './choice-pc/choice-pc.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [HomeComponent, HeaderComponent, ProductListComponent, DetailComponent, RouterModule],
+  imports: [HomeComponent, HeaderComponent, ProductListComponent, DetailComponent, RouterModule,ChoicePCComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
