@@ -1,15 +1,16 @@
-.choix-basic {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 400px; /* Définissez la largeur souhaitée pour votre bouton */
-    height: 50px; /* Définissez la hauteur souhaitée pour votre bouton */
-    border-radius: 5px; /* Ajoutez un rayon de bordure pour le style */
-    background-color: black; 
-    color: white;
-    margin: auto;
-    margin-top: 100px;
-
-
+button{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        color: #ffffff;
+        align-items: center;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: auto;
+        margin-top: 100px;
+}
+button:hover {
+    background-color: #3e8e41;
 }
