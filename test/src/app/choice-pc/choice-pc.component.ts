@@ -9,5 +9,6 @@ import { RouterModule } from '@angular/router';
   styleUrl: './choice-pc.component.css'
 })
 export class ChoicePCComponent {
-
+  // This is the ChoicePCComponent class
+  // It represents the component responsible for displaying the PC choice
 }

@@ -15,6 +15,10 @@ import { PcFilterService } from '../pc-filter.service';
 
 export class DetailComponent {
   constructor(public filtreService: PcFilterService, private route: ActivatedRoute) { 
+    // Constructor for the DetailComponent class
   }
-  pcs: Pcs = this.filtreService.getPcById(0);
+  
+  pcs: Pcs = this.filtreService.getPcById(0); // Get the PC by ID
+  
+  // Add any additional methods or properties here
 }
