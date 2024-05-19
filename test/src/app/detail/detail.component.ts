@@ -17,8 +17,8 @@ export class DetailComponent {
   constructor(public filtreService: PcFilterService, private route: ActivatedRoute) { 
     // Constructor for the DetailComponent class
   }
-  
-  pcs: Pcs = this.filtreService.getPcById(0); // Get the PC by ID
+  // get id form the route
+  pcs: Pcs = this.filtreService.getPcById(this.route.snapshot.params['id']); // Get the PC by ID
   
   // Add any additional methods or properties here
 }
