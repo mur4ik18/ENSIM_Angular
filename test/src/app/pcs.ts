@@ -1,4 +1,5 @@
 export interface Pcs {
+    id: number;
     name: string;
     marque: string;
     type: string;

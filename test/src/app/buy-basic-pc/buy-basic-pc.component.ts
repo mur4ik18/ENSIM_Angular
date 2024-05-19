@@ -10,5 +10,7 @@ import { ProductListComponent } from '../product-list/product-list.component';
   styleUrl: './buy-basic-pc.component.css'
 })
 export class BuyBasicPcComponent {
+  // This component represents the "Buy Basic PC" functionality
 
+  // Add any necessary properties or methods here
 }

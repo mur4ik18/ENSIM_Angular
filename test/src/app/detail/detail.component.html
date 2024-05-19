@@ -4,7 +4,7 @@
           <img mat-card-image src="https://img-4.linternaute.com/1znKXjiK4DcdsqEgpnOJxi3AWCA=/1500x/smart/d7ed506e36164b408e98cb749331892e/ccmcms-linternaute/41890510.jpg" alt="Product Image">
         </div>
         <div>
-          <mat-card-title>{{ pc.name }}</mat-card-title>
+          <mat-card-title>{{ pcs.name }}</mat-card-title>
             <p>Maecenas ipsum velit, consectetuer eu, lobortis ut, dictum at, dui. In rutrum. Sed ac dolor sit amet purus malesuada congue. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Suspendisse sagittis ultrices augue. Mauris metus. Nunc dapibus tortor vel mi dapibus sollicitudin. Etiam posuere lacus quis dolor. Praesent id justo in neque elementum ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. In convallis. Fusce suscipit libero eget elit. Praesent vitae arcu tempor neque lacinia pretium. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Maecenas ipsum velit, consectetuer eu, lobortis ut, dictum at, dui. In rutrum. Sed ac dolor sit amet purus malesuada congue. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Suspendisse sagittis ultrices augue. Mauris metus. Nunc dapibus tortor vel</p>
         </div>
     </mat-card>
@@ -15,19 +15,19 @@
     <mat-card-content>
       <mat-list>
         <mat-list-item>
-          <h3 matLine>Processeur: {{ pc.cpu }}</h3>
+          <h3 matLine>Processeur: {{ pcs.system.cpu }}</h3>
         </mat-list-item>
         <mat-list-item>
-          <h3 matLine>Carte graphique: {{ pc.gpu }}</h3>
+          <h3 matLine>Carte graphique: None</h3>
         </mat-list-item>
         <mat-list-item>
-          <h3 matLine>RAM: {{ pc.ram }}</h3>
+          <h3 matLine>RAM: {{ pcs.system.ram }}</h3>
         </mat-list-item>
         <mat-list-item>
-          <h3 matLine>Stockage: {{ pc.storage }}</h3>
+          <h3 matLine>Stockage: {{ pcs.system.hdd }}</h3>
         </mat-list-item>
         <mat-list-item>
-          <h3 matLine>Prix: {{ pc.price }}</h3>
+          <h3 matLine>Prix: {{ pcs.prix }}</h3>
         </mat-list-item>
       </mat-list>
     </mat-card-content>
