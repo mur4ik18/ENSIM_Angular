@@ -1,5 +1,6 @@
 export interface Pcs {
-    name: string;
+    id: number;
+    nom: string;
     marque: string;
     type: string;
     ecran: string;
